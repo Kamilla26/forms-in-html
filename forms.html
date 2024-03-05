@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale1.0">
+        <title>New student form</title>
+    </head>
+    <body>
+        <h1>Student application form</h1>
+        <form action="submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="Date of Birth">Date of Birth:</label>
+            <input type="text" id="Date of Birth" required>
+            <br>
+             <label for="Male">Male:</label>
+             <input type="radio" name="gender" id="Male" value="gender">
+             <label for="Female">Female:</label>
+             <input type="radio" name="gender" id="Female" value="gender">
+             <br>
+             <label for="Address">Address:</label>
+             <input type="text" name="Address" id="Address">
+             <br>
+             <label for="Telephone">Telephone</label>
+             <input type="text" name="Telephone" id="Telephone">
+             <br>
+             <label for="email">Email:</label>
+             <input type="email" name="email" id="email" placeholder="john@gmail.com" required>
+             <br>
+             <label for="Course">Select a Course</label>
+             <select id="Course" name="Course">
+                <option value=""></option>
+                 <option value="Bachelor of Arts">Bachelor of Arts</option>
+                 <option value="Bachelor of Science">Bachelor of Science</option>
+                 <option value="Bachelor of Engineering in architecture">Bachelor of Engineering in architecture</option>
+                 <option value="Bachelor of Law">Bachelor of Law</option>
+                 <option value="Bachelor of Medicine">Bachelor of Medicine</option>
+                 <option value="Bachelor of Science in microprocessor technology">Bachelor of Science in microprocessor technology</option>
+                 <option value="Bachelor of Arts in International relations">Bachelor of Arts in International relations</option>
+                 <option value="Bachelor of Arts in Sociology">Bachelor of Arts in Sociology</option>
+             </select>
+             <br>
+             <br>
+             <label for="Register">Register:</label>
+             <input type="submit" name="Register" id="Register" value="Register">
+             <label for="Cancel">Cancel:</label>
+             <input type="submit" name="Cancel" id="Cancel" value="Cancel">
+             
+
+        </form>
+    </body>
+</html>
